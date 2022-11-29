@@ -1,0 +1,1 @@
+insert into account (id,balance) values (0,0.0);
