@@ -126,7 +126,7 @@ open class BankApplicationIntegrationTest {
     inner class HistoryIntegrationTest {
         @Test
         @Sql(scripts = ["dataset/multiplebankaccounts.sql"])
-        @DisplayName("Then I should get every operation made on my account sorted by date")
+        @DisplayName("Then I should get every operation made on my account")
         fun should_return_all_operations() {
             insertOperations()
 
